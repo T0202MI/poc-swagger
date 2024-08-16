@@ -1,0 +1,16 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "API Documentation"
+  description: "API Documentation"
+host: "your-username.github.io"
+basePath: "/"
+schemes:
+  - "https"
+paths:
+  /example:
+    get:
+      summary: "Example endpoint"
+      responses:
+        200:
+          description: "Successful response"
